@@ -64,7 +64,6 @@ describe('DeepCamel', function () {
 
         it('should camelize all keys of a JS object', cb => {
             let result = deepCamel.camelize(noCamel);
-            console.log(result);
             deepequal(result, myCamel).should.equal(true);
             cb();
         });
@@ -92,7 +91,6 @@ describe('DeepCamel', function () {
 
         it('should decamelize all keys of a CamelCase JS object', cb => {
             let result = deepCamel.decamelize(myCamel);
-            console.log(result);
             deepequal(result, noCamel).should.equal(true);
             cb();
         });

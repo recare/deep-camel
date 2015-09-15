@@ -44,8 +44,6 @@ class deepCamelClass {
 
         }
 
-        console.log(obj);
-
         return obj;
     }
 
