@@ -61,8 +61,6 @@ var deepCamelClass = (function () {
                 }
             }
 
-            console.log(obj);
-
             return obj;
         }
     }, {
