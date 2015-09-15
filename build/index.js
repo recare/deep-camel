@@ -81,4 +81,5 @@ var deepCamelClass = (function () {
 })();
 
 var deepCamel = new deepCamelClass();
-exports.deepCamel = deepCamel;
+exports['default'] = deepCamel;
+module.exports = exports['default'];

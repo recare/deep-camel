@@ -11,7 +11,7 @@ import deepequal from 'deep-equal';
 const testConfig = testContext.config;
 testContext.prepare()();
 
-import {deepCamel} from '../src/index';
+import deepCamel from '../src/index';
 import {TypeError} from '../src/errors';
 
 console.log(deepCamel.toString());

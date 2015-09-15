@@ -58,4 +58,5 @@ class deepCamelClass {
     }
 }
 
-export const deepCamel = new deepCamelClass();
+const deepCamel = new deepCamelClass();
+export default deepCamel;
