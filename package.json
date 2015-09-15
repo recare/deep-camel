@@ -1,6 +1,6 @@
 {
   "name": "deep-camel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursively changes all key values in a JS object to camelCase or decamelizes them.",
   "main": "index.js",
   "scripts": {
