@@ -1,3 +1,7 @@
+/**
+ * @author Maximilian Greschke <maximilian@veyo-care.com>
+ */
+
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {

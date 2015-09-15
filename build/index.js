@@ -1,3 +1,7 @@
+/**
+ * @author Maximilian Greschke <maximilian@veyo-care.com>
+ */
+
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -53,10 +57,11 @@ var deepCamelClass = (function () {
                 obj[newKey] = temp;
 
                 if (typeof obj[newKey] === 'object') {
-
-                    obj[key] = this.applyToObjectKeys(obj[key], func);
+                    obj[newKey] = this.applyToObjectKeys(obj[newKey], func);
                 }
             }
+
+            console.log(obj);
 
             return obj;
         }
